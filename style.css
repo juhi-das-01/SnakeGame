@@ -1,10 +1,46 @@
 body {
   text-align: center;
   background-color: #f0f0f0;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #555;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+#score {
+  color: green;
+  font-weight: bold;
 }
 
 canvas {
   background-color: #111;
-  border: 2px solid #333;
+  border: 3px solid #333;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+#startBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: limegreen;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#startBtn:hover {
+  background-color: green;
+}
+
